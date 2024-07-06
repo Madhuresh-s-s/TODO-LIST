@@ -1,0 +1,40 @@
+body{
+  background-color: black;
+  color: azure;
+}
+.seg-css,
+.todo-input-grid{
+display: grid;
+grid-template-columns: 270px 155px 155px 80px;
+row-gap: 10px;
+column-gap: 10px;
+padding-bottom: 10px;
+padding-top: 10px;
+align-items: center;
+}
+.delete-css{
+  background-color: rgb(197, 17, 17);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.todo-input-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.input-css,
+.date-css,
+.time-css{
+  padding: 5px;
+  font-size: 15px;
+}
+.add-css{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
